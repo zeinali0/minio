@@ -178,10 +178,8 @@ const (
 
 	// Minimum Part size for multipart upload is 5MiB
 	globalMinPartSize = 5 * humanize.MiByte
-
 	// Maximum Part size for multipart upload is 5GiB
 	globalMaxPartSize = 5 * humanize.GiByte
-
 	// Maximum Part ID for multipart upload is 10000
 	// (Acceptable values range from 1 to 10000 inclusive)
 	globalMaxPartID = 10000
